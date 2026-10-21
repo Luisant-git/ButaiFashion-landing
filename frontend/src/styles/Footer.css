@@ -1,5 +1,5 @@
 /* ============================================================
-   Footer Styles
+   Footer Styles — Neat, Balanced & Structured Design
    ============================================================ */
 
 .footer {
@@ -7,21 +7,28 @@
   color: var(--color-white);
 }
 
-/* --- Top Row --- */
-.footer__top {
-  padding: 2.5rem 0;
-  border-bottom: 1px solid rgba(255,255,255,0.08);
+/* --- Main Grid Section --- */
+.footer__main {
+  padding: 4.5rem 0 3.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
-.footer__top-inner {
+.footer__grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1.25fr 1.1fr;
+  gap: 3.5rem;
+}
+
+.footer__col {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 2rem;
-  flex-wrap: wrap;
+  flex-direction: column;
 }
 
-/* --- Logo --- */
+.footer__col--brand {
+  max-width: 320px;
+}
+
+/* --- Brand Logo --- */
 .footer__logo {
   display: flex;
   flex-direction: column;
@@ -29,10 +36,11 @@
   gap: 2px;
   text-decoration: none;
   transition: opacity var(--transition-base);
+  width: fit-content;
 }
 
 .footer__logo:hover {
-  opacity: 0.8;
+  opacity: 0.85;
 }
 
 .footer__logo-mark {
@@ -43,7 +51,7 @@
 
 .footer__logo-brand {
   font-family: var(--font-serif);
-  font-size: 1.4rem;
+  font-size: 1.45rem;
   font-weight: 700;
   color: var(--color-white);
   letter-spacing: 0.05em;
@@ -63,92 +71,163 @@
   font-weight: 600;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: rgba(255,255,255,0.45);
+  color: rgba(255, 255, 255, 0.45);
 }
 
-/* --- Nav --- */
-.footer__nav {
-  display: flex;
+/* --- Tagline Badge --- */
+.footer__tagline-badge {
+  display: inline-flex;
   align-items: center;
-  gap: 2rem;
-  flex-wrap: wrap;
+  gap: 0.5rem;
+  background: rgba(201, 169, 110, 0.1);
+  border: 1px solid rgba(201, 169, 110, 0.22);
+  border-radius: var(--radius-sm);
+  padding: 0.35rem 0.75rem;
+  margin-top: 1rem;
+  margin-bottom: 0.85rem;
+  width: fit-content;
 }
 
-.footer__nav-link {
+.footer__tagline-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--color-gold);
+  flex-shrink: 0;
+}
+
+.footer__tagline {
   font-family: var(--font-sans);
-  font-size: 0.8rem;
-  font-weight: 500;
-  color: rgba(255,255,255,0.65);
-  text-decoration: none;
-  transition: color var(--transition-base);
-}
-
-.footer__nav-link:hover {
+  font-size: 0.75rem;
+  font-weight: 600;
   color: var(--color-gold);
+  letter-spacing: 0.02em;
 }
 
-/* --- Legal Links --- */
-.footer__legal-links {
-  display: flex;
-  gap: 1.5rem;
+.footer__desc {
+  font-size: 0.82rem;
+  color: rgba(255, 255, 255, 0.55);
+  line-height: 1.65;
 }
 
-.footer__legal-link {
+/* --- Headings --- */
+.footer__heading {
   font-family: var(--font-sans);
-  font-size: 0.78rem;
-  color: rgba(255,255,255,0.5);
-  text-decoration: none;
-  border-bottom: 1px solid transparent;
-  transition: color var(--transition-base), border-color var(--transition-base);
-}
-
-.footer__legal-link:hover {
+  font-size: 0.74rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
   color: var(--color-gold);
-  border-color: var(--color-gold);
+  margin-bottom: 1.25rem;
 }
 
-/* --- Social --- */
-.footer__social {
+.footer__heading--social {
+  margin-top: 1.5rem;
+  margin-bottom: 0.85rem;
+}
+
+/* --- Navigation Links --- */
+.footer__links {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   gap: 0.75rem;
 }
 
-.footer__social-link {
-  width: 34px;
-  height: 34px;
-  border-radius: 50%;
-  border: 1px solid rgba(255,255,255,0.15);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: rgba(255,255,255,0.55);
-  transition: all var(--transition-base);
+.footer__link {
+  font-family: var(--font-sans);
+  font-size: 0.82rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.65);
   text-decoration: none;
+  transition: color var(--transition-base), transform var(--transition-base);
+  display: inline-block;
+  width: fit-content;
 }
 
-.footer__social-link svg {
+.footer__link:hover {
+  color: var(--color-gold);
+  transform: translateX(3px);
+}
+
+/* --- Address & Contact --- */
+.footer__address {
+  font-style: normal;
+  font-size: 0.82rem;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.65;
+  margin-bottom: 1.25rem;
+}
+
+.footer__contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.footer__contact-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.75);
+  text-decoration: none;
+  transition: color var(--transition-base);
+  width: fit-content;
+}
+
+.footer__contact-link svg {
   width: 15px;
   height: 15px;
+  color: var(--color-gold);
+  flex-shrink: 0;
 }
 
-.footer__social-link:hover {
-  background: var(--color-gold);
-  border-color: var(--color-gold);
+.footer__contact-link:hover {
+  color: var(--color-gold);
+}
+
+/* --- Hours Card --- */
+.footer__hours-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: var(--radius-sm);
+  padding: 0.85rem 1rem;
+}
+
+.footer__hours-days {
+  font-size: 0.72rem;
+  color: rgba(255, 255, 255, 0.5);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.footer__hours-time {
+  font-size: 0.85rem;
+  font-weight: 600;
   color: var(--color-white);
-  transform: translateY(-2px);
+  letter-spacing: 0.02em;
 }
 
-/* --- Bottom Row --- */
+.footer__store-note {
+  font-size: 0.82rem;
+  color: rgba(255, 255, 255, 0.55);
+  line-height: 1.6;
+  margin-top: 1rem;
+}
+
+/* --- Bottom Bar --- */
 .footer__bottom {
-  padding: 1.25rem 0;
+  padding: 1.5rem 0;
 }
 
 .footer__bottom-inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 1rem;
+  gap: 1.5rem;
   flex-wrap: wrap;
 }
 
@@ -156,29 +235,96 @@
 .footer__reg {
   font-family: var(--font-sans);
   font-size: 0.75rem;
-  color: rgba(255,255,255,0.35);
+  color: rgba(255, 255, 255, 0.4);
 }
 
-/* --- Responsive --- */
-@media (max-width: 900px) {
-  .footer__top-inner {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1.5rem;
+.footer__legal-links {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+}
+
+.footer__legal-link {
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  transition: color var(--transition-base);
+}
+
+.footer__legal-link:hover {
+  color: var(--color-gold);
+}
+
+.footer__legal-sep {
+  color: rgba(255, 255, 255, 0.2);
+  font-size: 0.75rem;
+}
+
+.footer__bottom-right {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.footer__back-to-top {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  color: var(--color-gold);
+  background: rgba(201, 169, 110, 0.1);
+  border: 1px solid rgba(201, 169, 110, 0.3);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: all var(--transition-base);
+}
+
+.footer__back-to-top:hover {
+  background: var(--color-gold);
+  color: var(--color-white);
+  border-color: var(--color-gold);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(201, 169, 110, 0.35);
+}
+
+.footer__back-to-top svg {
+  width: 16px;
+  height: 16px;
+  transition: transform var(--transition-base);
+}
+
+.footer__back-to-top:hover svg {
+  transform: translateY(-2px);
+}
+
+/* --- Responsive Adjustments --- */
+@media (max-width: 1024px) {
+  .footer__grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
   }
-  .footer__nav {
-    gap: 1.25rem;
+
+  .footer__col--brand {
+    max-width: 100%;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 640px) {
+  .footer__main {
+    padding: 3.5rem 0 2.5rem;
+  }
+
+  .footer__grid {
+    grid-template-columns: 1fr;
+    gap: 2.25rem;
+  }
+
   .footer__bottom-inner {
     flex-direction: column;
     align-items: center;
     text-align: center;
-  }
-  .footer__legal-links {
-    flex-direction: column;
-    gap: 0.75rem;
+    gap: 1rem;
   }
 }

@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop';
 import HomePage from './pages/HomePage';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import TermsConditions from './pages/TermsConditions';
@@ -19,6 +20,7 @@ function App() {
         </Routes>
       </main>
       <Footer />
+      <ScrollToTop />
     </Router>
   );
 }
