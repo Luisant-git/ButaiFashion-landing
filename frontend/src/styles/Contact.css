@@ -1,0 +1,218 @@
+/* ============================================================
+   Contact Section — Details & Location Showcase
+   ============================================================ */
+
+.contact {
+  background: var(--color-white);
+  padding: var(--section-py) 0;
+}
+
+/* --- Section Header --- */
+.contact__header {
+  text-align: center;
+  max-width: 680px;
+  margin: 0 auto 3.5rem auto;
+}
+
+.contact__intro {
+  font-size: 0.95rem;
+  color: var(--color-text-mid);
+  line-height: 1.8;
+  margin-top: 0.5rem;
+}
+
+/* --- Contact Details Cards Grid --- */
+.contact__cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 3.5rem;
+}
+
+.contact__card {
+  background: var(--color-cream);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 2.25rem 1.75rem 2rem;
+  display: flex;
+  flex-direction: column;
+  transition: transform var(--transition-base), box-shadow var(--transition-base), border-color var(--transition-base);
+  position: relative;
+}
+
+.contact__card:hover {
+  transform: translateY(-4px);
+  border-color: var(--color-gold);
+  box-shadow: var(--shadow-md);
+}
+
+.contact__card-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: rgba(201, 169, 110, 0.12);
+  color: var(--color-gold-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+}
+
+.contact__card-icon svg {
+  width: 24px;
+  height: 24px;
+}
+
+.contact__card-title {
+  font-family: var(--font-serif);
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: var(--color-text-dark);
+  margin-bottom: 0.25rem;
+}
+
+.contact__card-subtitle {
+  font-size: 0.78rem;
+  color: var(--color-text-light);
+  margin-bottom: 1rem;
+}
+
+.contact__card-value {
+  font-size: 0.92rem;
+  font-weight: 500;
+  color: var(--color-text-dark);
+  line-height: 1.6;
+  margin-bottom: 0.75rem;
+  flex-grow: 1;
+}
+
+.contact__card-note {
+  font-size: 0.75rem;
+  color: var(--color-text-light);
+  margin-bottom: 1rem;
+  letter-spacing: 0.02em;
+}
+
+.contact__card-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-gold-dark);
+  text-decoration: none;
+  margin-top: auto;
+  transition: color var(--transition-base), transform var(--transition-base);
+}
+
+.contact__card-link:hover {
+  color: var(--color-gold);
+  transform: translateX(3px);
+}
+
+.contact__card-link .arrow-icon {
+  transition: transform var(--transition-base);
+}
+
+.contact__card-link:hover .arrow-icon {
+  transform: translateX(4px);
+}
+
+/* --- Map Showcase --- */
+.contact__map-wrapper {
+  background: var(--color-cream);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  transition: box-shadow var(--transition-base);
+}
+
+.contact__map-wrapper:hover {
+  box-shadow: var(--shadow-md);
+}
+
+.contact__map-header {
+  padding: 1.5rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+  border-bottom: 1px solid var(--color-border);
+  background: var(--color-white);
+  flex-wrap: wrap;
+}
+
+.contact__map-badge {
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-gold);
+  display: inline-block;
+  margin-bottom: 0.25rem;
+}
+
+.contact__map-name {
+  font-family: var(--font-serif);
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--color-text-dark);
+}
+
+.contact__map-address {
+  font-size: 0.85rem;
+  color: var(--color-text-mid);
+  margin-top: 0.2rem;
+}
+
+.contact__map-btn {
+  white-space: nowrap;
+}
+
+.contact__map-frame {
+  width: 100%;
+  height: 380px;
+  line-height: 0;
+}
+
+.contact__map-frame iframe {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* --- Responsive Adjustments --- */
+@media (max-width: 1024px) {
+  .contact__cards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
+  }
+}
+
+@media (max-width: 680px) {
+  .contact__cards {
+    grid-template-columns: 1fr;
+  }
+
+  .contact__header {
+    margin-bottom: 2.5rem;
+  }
+
+  .contact__map-header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1.25rem 1.5rem;
+  }
+
+  .contact__map-btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .contact__map-frame {
+    height: 300px;
+  }
+}

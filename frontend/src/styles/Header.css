@@ -1,0 +1,236 @@
+/* ============================================================
+   Header Component Styles
+   ============================================================ */
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: transparent;
+  transition: background var(--transition-base), box-shadow var(--transition-base), backdrop-filter var(--transition-base);
+}
+
+.header--scrolled {
+  background: rgba(255, 255, 255, 0.96);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 1px 24px rgba(0,0,0,0.08);
+}
+
+.header--menu-open {
+  background: var(--color-white);
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 72px;
+}
+
+/* --- Logo --- */
+.header__logo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 1;
+  text-decoration: none;
+  gap: 2px;
+  transition: opacity var(--transition-base);
+}
+
+.header__logo:hover {
+  opacity: 0.8;
+}
+
+.logo-mark {
+  display: flex;
+  align-items: baseline;
+  gap: 1px;
+}
+
+.logo-brand {
+  font-family: var(--font-serif);
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: var(--color-black);
+  line-height: 1;
+}
+
+.header--scrolled .logo-brand,
+.header--menu-open .logo-brand {
+  color: var(--color-black);
+}
+
+.header:not(.header--scrolled):not(.header--menu-open) .logo-brand {
+  color: var(--color-white);
+}
+
+.logo-plus {
+  font-family: var(--font-serif);
+  font-size: 1.3rem;
+  color: var(--color-gold);
+  font-weight: 400;
+}
+
+.logo-sub {
+  font-family: var(--font-sans);
+  font-size: 0.5rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-text-light);
+}
+
+.header:not(.header--scrolled):not(.header--menu-open) .logo-sub {
+  color: rgba(255,255,255,0.7);
+}
+
+/* --- Desktop Nav --- */
+.header__nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.nav__link {
+  font-family: var(--font-sans);
+  font-size: 0.82rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  color: var(--color-white);
+  text-decoration: none;
+  position: relative;
+  padding-bottom: 4px;
+  transition: color var(--transition-base);
+}
+
+.header--scrolled .nav__link {
+  color: var(--color-text-dark);
+}
+
+.nav__link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 1.5px;
+  background: var(--color-gold);
+  transition: width var(--transition-base);
+}
+
+.nav__link:hover::after,
+.nav__link.active::after {
+  width: 100%;
+}
+
+.nav__link:hover {
+  color: var(--color-gold);
+}
+
+/* --- Header Actions --- */
+.header__actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* --- Hamburger --- */
+.header__hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  padding: 6px;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.hamburger-line {
+  display: block;
+  width: 24px;
+  height: 1.5px;
+  background: var(--color-white);
+  transition: all var(--transition-base);
+  transform-origin: center;
+}
+
+.header--scrolled .hamburger-line,
+.header--menu-open .hamburger-line {
+  background: var(--color-black);
+}
+
+.hamburger-line--1-open {
+  transform: rotate(45deg) translate(4.5px, 4.5px);
+}
+
+.hamburger-line--2-open {
+  opacity: 0;
+  transform: scaleX(0);
+}
+
+.hamburger-line--3-open {
+  transform: rotate(-45deg) translate(4.5px, -4.5px);
+}
+
+/* --- Mobile Menu --- */
+.header__mobile-menu {
+  display: none;
+  max-height: 0;
+  overflow: hidden;
+  background: var(--color-white);
+  transition: max-height 0.4s ease;
+  border-top: 1px solid var(--color-border);
+}
+
+.header__mobile-menu--open {
+  max-height: 400px;
+}
+
+.mobile-nav__list {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0 1.5rem;
+}
+
+.mobile-nav__item {
+  border-bottom: 1px solid var(--color-border);
+}
+
+.mobile-nav__link {
+  display: block;
+  padding: 1rem var(--container-px);
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--color-text-dark);
+  text-decoration: none;
+  transition: color var(--transition-base), padding-left var(--transition-base);
+}
+
+.mobile-nav__link:hover {
+  color: var(--color-gold);
+  padding-left: calc(var(--container-px) + 8px);
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+  .header__nav {
+    display: none;
+  }
+  .header__hamburger {
+    display: flex;
+  }
+  .header__mobile-menu {
+    display: block;
+  }
+}
