@@ -76,6 +76,15 @@
   font-weight: 400;
 }
 
+.logo-tag {
+  font-family: var(--font-sans);
+  font-size: 0.5rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-gold);
+}
+
 .logo-sub {
   font-family: var(--font-sans);
   font-size: 0.5rem;
@@ -85,7 +94,8 @@
   color: var(--color-text-light);
 }
 
-.header:not(.header--scrolled):not(.header--menu-open) .logo-sub {
+.header:not(.header--scrolled):not(.header--menu-open) .logo-sub,
+.header:not(.header--scrolled):not(.header--menu-open) .logo-tag {
   color: rgba(255,255,255,0.7);
 }
 

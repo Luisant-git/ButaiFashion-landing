@@ -24,9 +24,24 @@ const contactCards = [
     ),
     title: 'Email Us',
     subtitle: 'Support & general inquiries',
-    value: 'info@butai.com.my',
+    value: 'info@butaifashion.com',
     actionText: 'Send an Email',
-    href: 'mailto:info@butai.com.my',
+    href: 'mailto:info@butaifashion.com',
+  },
+  {
+    id: 'contact-registered-address',
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
+        <path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/>
+        <circle cx="12" cy="10" r="3"/>
+      </svg>
+    ),
+    title: 'Registered Address',
+    subtitle: 'Company registered office',
+    value: 'Suite 707, 7th Floor, Wisma Lim Foo Yong, No. 86 Jalan Raja Chulan, Kuala Lumpur, Wilayah Persekutuan 50200, Malaysia.',
+    actionText: 'View Office',
+    href: 'https://maps.google.com/?q=Suite+707+Wisma+Lim+Foo+Yong+No.+86+Jalan+Raja+Chulan+Kuala+Lumpur',
+    external: true,
   },
   {
     id: 'contact-address',
@@ -37,10 +52,10 @@ const contactCards = [
       </svg>
     ),
     title: 'Store Location',
-    subtitle: 'NU Sentral Mall, Kuala Lumpur',
-    value: 'Lot No. L1-17, NU Sentral Mall, Jalan Stesen Sentral 5, 50400 Kuala Lumpur, Wilayah Persekutuan',
+    subtitle: 'Fabindia Malaysia NU Sentral',
+    value: 'Lot No. L1-17, NU Sentral Mall, Jalan Stesen Sentral 5, 50400 Kuala Lumpur, Wilayah Persekutuan, Malaysia.',
     actionText: 'Get Directions',
-    href: 'https://maps.google.com/?q=NU+Sentral+Mall+Kuala+Lumpur',
+    href: 'https://www.google.com/maps/place/Fabindia+Malaysia+NU+Sentral/@3.1328277,101.6873496,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc498b471dc219:0xc6cf5dd7f61fab89!8m2!3d3.1328277!4d101.6873496!16s%2Fg%2F11hz1tt3t9?entry=ttu&g_ep=EgoyMDI2MTAxOC4wIKXMDSoASAFQAw%3D%3D',
     external: true,
   },
   {
@@ -103,13 +118,13 @@ export default function Contact() {
           <div className="contact__map-header">
             <div className="contact__map-info">
               <span className="contact__map-badge">Store Location</span>
-              <h3 className="contact__map-name">Butai Fashion Sdn. Bhd.</h3>
+              <h3 className="contact__map-name">Fabindia Malaysia</h3>
               <p className="contact__map-address">
-                Lot No. L1-17, NU Sentral Mall, Jalan Stesen Sentral 5, 50400 Kuala Lumpur
+                NU Sentral Mall, Jalan Stesen Sentral 5, 50400 Kuala Lumpur
               </p>
             </div>
             <a
-              href="https://maps.google.com/?q=NU+Sentral+Mall+Kuala+Lumpur"
+              href="https://www.google.com/maps/place/Fabindia+Malaysia+NU+Sentral/@3.1328277,101.6873496,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc498b471dc219:0xc6cf5dd7f61fab89!8m2!3d3.1328277!4d101.6873496!16s%2Fg%2F11hz1tt3t9?entry=ttu&g_ep=EgoyMDI2MTAxOC4wIKXMDSoASAFQAw%3D%3D"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-primary contact__map-btn"
@@ -120,8 +135,8 @@ export default function Contact() {
 
           <div className="contact__map-frame">
             <iframe
-              title="Butai Fashion Sdn. Bhd. location – NU Sentral Mall, Kuala Lumpur"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.8!2d101.6873496!3d3.1328277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc49c701efeae7%3A0xa1c29416fbe1fce0!2sNU%20Sentral!5e0!3m2!1sen!2smy!4v1700000000000!5m2!1sen!2smy"
+              title="Fabindia Malaysia NU Sentral location"
+              src="https://www.google.com/maps?q=3.1328277,101.6873496&z=17&output=embed"
               width="100%"
               height="380"
               style={{ border: 0 }}

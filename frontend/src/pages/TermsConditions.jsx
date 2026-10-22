@@ -174,7 +174,7 @@ export default function TermsConditions() {
               <strong>SSM Reg. No.:</strong> 201401038763 (1114911-V)<br />
               <strong>Business Address:</strong> Lot No. L1-17, NU Sentral Mall, Jalan Stesen Sentral 5, 50400 Kuala Lumpur, Wilayah Persekutuan, Malaysia.<br />
               <strong>Registered Office:</strong> Suite 707, 7th Floor, Wisma Lim Foo Yong, No. 86 Jalan Raja Chulan, 50200 Kuala Lumpur, Wilayah Persekutuan, Malaysia.<br />
-              <strong>General Inquiries:</strong> <a href="mailto:info@butai.com.my">info@butai.com.my</a><br />
+              <strong>General Inquiries:</strong> <a href="mailto:info@butaifashion.com">info@butaifashion.com</a><br />
               <strong>Telephone:</strong> <a href="tel:+60377214000">+60 3-7721 4000</a>
             </address>
           </section>

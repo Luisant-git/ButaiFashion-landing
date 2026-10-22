@@ -57,7 +57,9 @@ export default function Header() {
             <span className="logo-brand">BUTAI</span>
             <span className="logo-plus">+</span>
           </div>
+          
           <span className="logo-sub">FASHION SDN. BHD.</span>
+          <span className="logo-tag">FAB INDIA</span>
         </Link>
 
         {/* Desktop Navigation */}

@@ -46,7 +46,7 @@ export default function Footer() {
 
             <div className="footer__tagline-badge">
               <span className="footer__tagline-dot"></span>
-              <p className="footer__tagline">We are Fabindia Malaysia NU Sentral</p>
+              <p className="footer__tagline">We are a Fabindia franchise in Malaysia</p>
             </div>
 
             <p className="footer__desc">
@@ -89,12 +89,12 @@ export default function Footer() {
                 </svg>
                 +60 3-7721 4000
               </a>
-              <a href="mailto:info@butai.com.my" className="footer__contact-link">
+              <a href="mailto:info@butaifashion.com" className="footer__contact-link">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
                   <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
                   <polyline points="22,6 12,13 2,6"/>
                 </svg>
-                info@butai.com.my
+                info@butaifashion.com
               </a>
             </div>
           </div>

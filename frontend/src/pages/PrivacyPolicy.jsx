@@ -82,7 +82,7 @@ export default function PrivacyPolicy() {
             </p>
             <ul>
               <li>
-                <strong>Direct Communications:</strong> Your name, email address, contact telephone number, and message details when you contact us directly via telephone (<a href="tel:+60377214000">+60 3-7721 4000</a>) or email (<a href="mailto:info@butai.com.my">info@butai.com.my</a>).
+                <strong>Direct Communications:</strong> Your name, email address, contact telephone number, and message details when you contact us directly via telephone (<a href="tel:+60377214000">+60 3-7721 4000</a>) or email (<a href="mailto:info@butaifashion.com">info@butaifashion.com</a>).
               </li>
               <li>
                 <strong>Retail &amp; Customer Care:</strong> In-store customer service inquiries, custom fitting details, styling consultations, warranty records, feedback, or corporate inquiry information provided at our NU Sentral Mall boutique.
@@ -156,7 +156,7 @@ export default function PrivacyPolicy() {
               <li><strong>Right to Limit Processing:</strong> You may request that we limit the processing of your personal data.</li>
             </ul>
             <p>
-              To exercise any of these rights, please submit a written request to our Data Protection Officer at <a href="mailto:info@butai.com.my">info@butai.com.my</a>.
+              To exercise any of these rights, please submit a written request to our Data Protection Officer at <a href="mailto:info@butaifashion.com">info@butaifashion.com</a>.
             </p>
           </section>
 
@@ -188,7 +188,7 @@ export default function PrivacyPolicy() {
               <strong>SSM Reg. No.:</strong> 201401038763 (1114911-V)<br />
               <strong>Principal Business Address:</strong> Lot No. L1-17, NU Sentral Mall, Jalan Stesen Sentral 5, 50400 Kuala Lumpur, Wilayah Persekutuan, Malaysia.<br />
               <strong>Registered Office:</strong> Suite 707, 7th Floor, Wisma Lim Foo Yong, No. 86 Jalan Raja Chulan, 50200 Kuala Lumpur, Wilayah Persekutuan, Malaysia.<br />
-              <strong>Email:</strong> <a href="mailto:info@butai.com.my">info@butai.com.my</a><br />
+              <strong>Email:</strong> <a href="mailto:info@butaifashion.com">info@butaifashion.com</a><br />
               <strong>Telephone:</strong> <a href="tel:+60377214000">+60 3-7721 4000</a>
             </address>
           </section>

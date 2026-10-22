@@ -73,20 +73,22 @@
 .about__brand-statement {
   display: inline-flex;
   align-items: center;
-  gap: 0.5rem;
-  background: rgba(201, 169, 110, 0.12);
+  gap: 0.55rem;
+  background: linear-gradient(135deg, rgba(201, 169, 110, 0.16), rgba(201, 169, 110, 0.06));
   border: 1px solid rgba(201, 169, 110, 0.35);
-  padding: 0.45rem 1.1rem;
-  border-radius: var(--radius-sm);
+  box-shadow: 0 10px 25px rgba(143, 110, 54, 0.08);
+  padding: 0.6rem 1.15rem;
+  border-radius: 999px;
   margin-bottom: 1.25rem;
 }
 
 .about__statement-text {
   font-family: var(--font-sans);
-  font-size: 0.85rem;
-  font-weight: 600;
+  font-size: 0.8rem;
+  font-weight: 700;
   color: var(--color-gold-dark);
-  letter-spacing: 0.04em;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
 }
 
 .about__intro {

@@ -27,19 +27,20 @@ export default function AboutUs() {
           <div className="section-divider"></div>
 
           <div className="about__brand-statement">
-            <span className="about__statement-text">We are Fabindia Malaysia NU Sentral</span>
+            <span className="about__statement-text">We are a Fabindia franchise in Malaysia</span>
           </div>
 
           <p className="about__intro">
-            We are Fabindia Malaysia NU Sentral. Operated by Butai Fashion Sdn. Bhd. in Kuala Lumpur,
-            Malaysia, we specialise in fashion apparel, garments and accessories of all kinds.
-            We are committed to bringing you stylish, high-quality handcrafted apparel and lifestyle
-            products that enhance your natural beauty and confidence.
+            We are Fabindia Malaysia NU Sentral — a proud Fabindia franchise operated by Butai Fashion
+            Sdn. Bhd. in Kuala Lumpur, Malaysia. We specialise in premium fashion apparel, garments,
+            and accessories designed to bring timeless style, comfort, and craftsmanship to everyday
+            life.
           </p>
           <p className="about__sub">
             Registered under SSM (No. 201401038763 / 1114911-V), we operate our flagship retail
-            boutique at Lot No. L1-17, NU Sentral Mall, serving our visitors with an authentic and
-            curated selection of elegant fashion, clothing, and traditional-modern apparel.
+            boutique at Lot No. L1-17, NU Sentral Mall, serving our visitors with a curated selection
+            of elegant, high-quality apparel and lifestyle products inspired by authentic heritage and
+            contemporary design.
           </p>
 
           {/* Addresses */}
