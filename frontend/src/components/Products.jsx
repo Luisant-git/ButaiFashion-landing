@@ -45,15 +45,21 @@ export default function Products() {
                   src={product.image}
                   alt={`Butai Fashion – ${product.title}`}
                   className="product-card__img"
+                  width="640"
+                  height="480"
                   loading="lazy"
+                  decoding="async"
+                  fetchPriority="low"
                 />
                 <div className="product-card__overlay">
                   <span className="product-card__view">View Collection</span>
                 </div>
               </div>
               <div className="product-card__body">
-                <h3 className="product-card__title">{product.title}</h3>
-                <p className="product-card__desc">{product.desc}</p>
+                <div className="product-card__info">
+                  <h3 className="product-card__title">{product.title}</h3>
+                  <p className="product-card__desc">{product.desc}</p>
+                </div>
                 <span className="product-card__arrow" aria-hidden="true">→</span>
               </div>
             </article>
