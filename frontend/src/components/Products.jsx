@@ -1,29 +1,32 @@
 import '../styles/Products.css';
+import fabImage from '../assets/fab.jfif';
+import girlsWearImage from '../assets/girlswear.jfif';
+import collectionImage from '../assets/collection.jfif';
 
 const products = [
   {
     id: 'fashion-apparel',
-    image: '/images/product_jewellery.webp',
-    title: 'Fashion Apparel',
+    image: '/images/product_garments.webp',
+    title: 'Ladies Wear',
     desc: 'Modern silhouettes for every moment',
   },
   {
     id: 'garments',
-    image: '/images/product_garments.webp',
-    title: 'Garments',
-    desc: 'Classic staples and statement pieces',
+    image: girlsWearImage,
+    title: 'Girls Wear',
+    desc: 'Cute and comfortable dress collections',
   },
   {
-    id: 'cosmetics',
-    image: '/images/product_cosmetics.webp',
-    title: 'Cosmetics',
-    desc: 'Beauty for every you',
+    id: 'boys-wear',
+    image: fabImage,
+    title: 'Boys Wear',
+    desc: 'Smart casual looks for young fashion',
   },
   {
-    id: 'accessories',
-    image: '/images/product_accessories.webp',
-    title: 'Accessories',
-    desc: 'Complete your look',
+    id: 'dress-collection',
+    image: collectionImage,
+    title: 'Dress Collection',
+    desc: 'Elegant styles for every special moment',
   },
 ];
 
