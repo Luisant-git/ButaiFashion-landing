@@ -42,6 +42,7 @@ export default function Footer() {
                 <span className="footer__logo-plus">+</span>
               </div>
               <span className="footer__logo-sub">FASHION SDN. BHD.</span>
+              <span className="footer__logo-tag">FAB INDIA</span>
             </Link>
 
             <div className="footer__tagline-badge">

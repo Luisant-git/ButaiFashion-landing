@@ -74,6 +74,15 @@
   color: rgba(255, 255, 255, 0.45);
 }
 
+.footer__logo-tag {
+  font-family: var(--font-sans);
+  font-size: 0.44rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-gold);
+}
+
 /* --- Tagline Badge --- */
 .footer__tagline-badge {
   display: inline-flex;
