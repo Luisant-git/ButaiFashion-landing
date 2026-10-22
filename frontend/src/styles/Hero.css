@@ -96,8 +96,19 @@
   letter-spacing: 0.24em;
   text-transform: uppercase;
   color: rgba(255,255,255,0.75);
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.5rem;
   margin-top: 0.25rem;
+}
+
+.hero__brand-tag {
+  display: inline-block;
+  font-family: var(--font-sans);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.26em;
+  text-transform: uppercase;
+  color: var(--color-gold-light);
+  margin-bottom: 1.5rem;
 }
 
 .hero__tagline {

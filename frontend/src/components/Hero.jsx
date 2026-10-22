@@ -27,6 +27,7 @@ export default function Hero() {
             BUTAI<span className="hero__brand-plus">+</span>
           </h1>
           <p className="hero__company">FASHION SDN. BHD.</p>
+          <p className="hero__brand-tag">FAB INDIA</p>
           <h2 className="hero__tagline">Style That Completes You</h2>
           <p className="hero__description">
             We bring you the latest in fashion apparel, garments<br />
