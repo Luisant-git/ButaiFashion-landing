@@ -12,7 +12,7 @@ export default function Hero() {
       {/* Background image */}
       <div className="hero__bg" aria-hidden="true">
         <img
-          src="/images/hero_fashion_model.png"
+          src="/images/hero_fashion_model.webp"
           alt="Butai Fashion – elegant fashion model in modern apparel"
           className="hero__bg-img"
         />

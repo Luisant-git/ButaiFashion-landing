@@ -3,25 +3,25 @@ import '../styles/Products.css';
 const products = [
   {
     id: 'fashion-apparel',
-    image: '/images/product_jewellery.png',
+    image: '/images/product_jewellery.webp',
     title: 'Fashion Apparel',
     desc: 'Modern silhouettes for every moment',
   },
   {
     id: 'garments',
-    image: '/images/product_garments.png',
+    image: '/images/product_garments.webp',
     title: 'Garments',
     desc: 'Classic staples and statement pieces',
   },
   {
     id: 'cosmetics',
-    image: '/images/product_cosmetics.png',
+    image: '/images/product_cosmetics.webp',
     title: 'Cosmetics',
     desc: 'Beauty for every you',
   },
   {
     id: 'accessories',
-    image: '/images/product_accessories.png',
+    image: '/images/product_accessories.webp',
     title: 'Accessories',
     desc: 'Complete your look',
   },

@@ -8,7 +8,7 @@ export default function AboutUs() {
         {/* Store Image */}
         <div className="about__image-wrap">
           <img
-            src="/images/store_front.png"
+            src="/images/store_front.webp"
             alt="Butai Fashion Sdn. Bhd. store interior at NU Sentral Mall, Kuala Lumpur"
             className="about__image"
           />
