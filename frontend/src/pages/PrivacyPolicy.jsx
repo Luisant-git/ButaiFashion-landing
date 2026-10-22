@@ -53,7 +53,7 @@ export default function PrivacyPolicy() {
               <li><strong>Legal Entity:</strong> BUTAI FASHION SDN. BHD.</li>
               <li><strong>SSM Registration Number:</strong> 201401038763 (1114911-V)</li>
               <li><strong>Incorporation Date:</strong> 27 October 2014</li>
-              <li><strong>Nature of Business:</strong> Designers and seller of fashion jewellery, garments and cosmetics of all kinds</li>
+              <li><strong>Nature of Business:</strong> Designers and seller of fashion apparel, garments and accessories of all kinds</li>
               <li><strong>Registered Office:</strong> Suite 707, 7th Floor, Wisma Lim Foo Yong, No. 86 Jalan Raja Chulan, 50200 Kuala Lumpur, Wilayah Persekutuan, Malaysia</li>
               <li><strong>Principal Place of Business:</strong> Lot No. L1-17, NU Sentral Mall, Jalan Stesen Sentral 5, 50400 Kuala Lumpur, Wilayah Persekutuan, Malaysia</li>
             </ul>

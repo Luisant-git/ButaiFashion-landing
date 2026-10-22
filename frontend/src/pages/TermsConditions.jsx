@@ -80,10 +80,10 @@ export default function TermsConditions() {
               As officially registered with the Companies Commission of Malaysia (SSM), our nature of business encompasses:
             </p>
             <blockquote>
-              <em>&ldquo;Designers and seller of fashion jewellery, garments and cosmetics of all kinds.&rdquo;</em>
+              <em>&ldquo;Designers and seller of fashion apparel, garments and accessories of all kinds.&rdquo;</em>
             </blockquote>
             <p>
-              We curate, design, display, and retail premium fashion jewellery, contemporary apparel, haute couture, ready-to-wear garments, fashion accessories, and cosmetics.
+              We curate, design, display, and retail premium contemporary apparel, handcrafted garments, ready-to-wear fashion, accessories, and beauty essentials.
             </p>
             <p>
               While we take meticulous care to ensure descriptions, dimensions, photographs, and material compositions accurately reflect our collections, actual colours and finishes may vary slightly depending on your viewing display or natural fabric/gemstone variations. All items displayed on this website are subject to availability at our boutique.
@@ -121,7 +121,7 @@ export default function TermsConditions() {
               <li><strong>Currency:</strong> All retail transactions and displayed prices are in Malaysian Ringgit (MYR).</li>
               <li><strong>Point of Sale:</strong> Prices and stock availability are confirmed at the time of purchase in our retail store.</li>
               <li><strong>Consumer Protection:</strong> Retail sales, guarantees, and receipts are issued in full compliance with the Malaysian Consumer Protection Act 1999 (Act 599).</li>
-              <li><strong>Returns &amp; Exchanges:</strong> In-store return and exchange policies apply at the time of purchase and will be stated on your official sales receipt. For hygiene reasons, certain fashion jewellery and cosmetics items may be restricted from return once opened or worn.</li>
+              <li><strong>Returns &amp; Exchanges:</strong> In-store return and exchange policies apply at the time of purchase and will be stated on your official sales receipt. For hygiene reasons, certain garments and cosmetics items may be restricted from return once opened or worn.</li>
             </ul>
           </section>
 

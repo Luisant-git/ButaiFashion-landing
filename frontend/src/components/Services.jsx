@@ -11,7 +11,7 @@ const services = [
       </svg>
     ),
     title: 'Retail Sales',
-    desc: 'Fashion jewellery, garments & cosmetics',
+    desc: 'Fashion apparel, garments & accessories',
   },
   {
     id: 'customer-support',

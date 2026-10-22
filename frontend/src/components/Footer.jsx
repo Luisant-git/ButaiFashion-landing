@@ -51,7 +51,7 @@ export default function Footer() {
 
             <p className="footer__desc">
               Your premier retail boutique for handcrafted garments, authentic ethnic wear,
-              fine jewellery, and cosmetics in Kuala Lumpur.
+              fashion accessories, and beauty essentials in Kuala Lumpur.
             </p>
           </div>
 

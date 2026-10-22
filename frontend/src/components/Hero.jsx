@@ -13,7 +13,7 @@ export default function Hero() {
       <div className="hero__bg" aria-hidden="true">
         <img
           src="/images/hero_fashion_model.png"
-          alt="Butai Fashion – elegant fashion model wearing gold jewellery"
+          alt="Butai Fashion – elegant fashion model in modern apparel"
           className="hero__bg-img"
         />
         <div className="hero__overlay"></div>
@@ -29,8 +29,8 @@ export default function Hero() {
           <p className="hero__company">FASHION SDN. BHD.</p>
           <h2 className="hero__tagline">Style That Completes You</h2>
           <p className="hero__description">
-            We bring you the latest in fashion jewellery, garments<br />
-            and cosmetics — crafted for your everyday elegance.
+            We bring you the latest in fashion apparel, garments<br />
+            and accessories — crafted for your everyday elegance.
           </p>
           <a
             href="/#products"

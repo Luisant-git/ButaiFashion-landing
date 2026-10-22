@@ -2,16 +2,16 @@ import '../styles/Products.css';
 
 const products = [
   {
-    id: 'fashion-jewellery',
+    id: 'fashion-apparel',
     image: '/images/product_jewellery.png',
-    title: 'Fashion Jewellery',
-    desc: 'Elegant pieces for every occasion',
+    title: 'Fashion Apparel',
+    desc: 'Modern silhouettes for every moment',
   },
   {
     id: 'garments',
     image: '/images/product_garments.png',
     title: 'Garments',
-    desc: 'Trendy styles, everyday wear',
+    desc: 'Classic staples and statement pieces',
   },
   {
     id: 'cosmetics',

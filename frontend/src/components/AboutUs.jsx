@@ -32,14 +32,14 @@ export default function AboutUs() {
 
           <p className="about__intro">
             We are Fabindia Malaysia NU Sentral. Operated by Butai Fashion Sdn. Bhd. in Kuala Lumpur,
-            Malaysia, we specialise in fashion jewellery, garments and cosmetics of all kinds.
+            Malaysia, we specialise in fashion apparel, garments and accessories of all kinds.
             We are committed to bringing you stylish, high-quality handcrafted apparel and lifestyle
             products that enhance your natural beauty and confidence.
           </p>
           <p className="about__sub">
             Registered under SSM (No. 201401038763 / 1114911-V), we operate our flagship retail
             boutique at Lot No. L1-17, NU Sentral Mall, serving our visitors with an authentic and
-            curated selection of elegant fashion, jewellery, and traditional-modern apparel.
+            curated selection of elegant fashion, clothing, and traditional-modern apparel.
           </p>
 
           {/* Addresses */}
